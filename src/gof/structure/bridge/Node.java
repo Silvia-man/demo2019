@@ -1,0 +1,9 @@
+package gof.structure.bridge;
+
+public class Node {
+    public int value;
+    public Node prev, next;
+    public Node(int value) {
+        this.value = value;
+    }
+}

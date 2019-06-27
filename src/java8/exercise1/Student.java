@@ -4,9 +4,8 @@ import java.time.LocalDate;
 import java.util.stream.Stream;
 
 public class Student {
-  //  public Student(Long l, String guoMan, Gender female, Integer i, LocalDate of, Department cs) {
+    //  public Student(Long l, String guoMan, Gender female, Integer i, LocalDate of, Department cs) {
     //}
-
 
     public Student(Long id, String name, Gender gender, Integer credit, LocalDate entryDate, Department department) {
         this.id = id;
